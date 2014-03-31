@@ -13,11 +13,11 @@
 		/*
 		basically we need to have a different "x" and "y" for the 
 		quadtree so that it will check above and to thje left
-		for elements, than the actual x and y that we want to move
+		for elements, than the actual x and y that we want to this
 
 		*/
 
-		this.connected = [];
+		move.connected = [];
 
 		this.cursorAttrStr = 0.2;
 		this.friendAvoidDist = 30;
